@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\bin\Release\Project.exe.config
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\bin\Release\Project.exe
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\bin\Release\Project.pdb
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\MainWindow.g.cs
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\App.g.cs
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project_MarkupCompile.cache
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project_MarkupCompile.lref
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\MainWindow.baml
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project.g.resources
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project.Properties.Resources.resources
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project.exe
+C:\Users\HP\source\repos\PostgreSql (Aleksei Yakovlevich)\Project\obj\Release\Project.pdb
