@@ -28,7 +28,7 @@
 
         <Button x:Name="loadDataButton" Margin="61,50,125,0" Width="150" Content="Загрузить базу" Grid.Row="1" Click="Load_DataBase_Button" Grid.Column="1" Grid.ColumnSpan="2" />
         <Button x:Name="updateDataButton" Margin="125,50,125,0" Width="150" Content="Обновить базу" Grid.Row="1" Grid.Column="3" Click="Update_Data_Button"/>
-        <Button x:Name="searchDataButton" Margin="170,50,325,0" Width="150" Content="Поиск по базе" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="2"/>
+        <Button x:Name="searchDataButton" Margin="170,50,325,0" Width="150" Content="Поиск по базе" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="2" Click="searchDataButton_Click"/>
 
         <ComboBox x:Name="loadDataList" VerticalAlignment="Top" Width="200" Grid.Row="1" Grid.Column="1" Margin="36,0,100,0" Grid.ColumnSpan="2">
 
