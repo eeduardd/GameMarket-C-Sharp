@@ -7,7 +7,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="772"/>
-        <Button Content="Загрузить базу данных"  Margin="10,383,585,10" Click="Button_Load_Database" />  
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300px"/>
+            <RowDefinition Height="80px"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="64*"/>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="245*"/>
+            <ColumnDefinition Width="400*"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="dataGrid" Height="200" Grid.ColumnSpan="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="772" Margin="14,0,0,0">
+            <DataGrid.ContextMenu>
+                <ContextMenu Name="gridContextMenu" StaysOpen="True">
+                    <MenuItem Header="Удалить" Click="ContextMenu_Delete_Button"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+
+        <Button x:Name="loadDataButton" Margin="61,50,125,0" Width="150" Content="Загрузить базу" Grid.Row="1" Click="Load_DataBase_Button" Grid.Column="1" Grid.ColumnSpan="2" />
+        <Button x:Name="updateDataButton" Margin="125,50,125,0" Width="150" Content="Обновить базу" Grid.Row="1" Grid.Column="3" Click="Update_Data_Button"/>
+        <Button x:Name="searchDataButton" Margin="170,50,325,0" Width="150" Content="Поиск по базе" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="2"/>
+
+        <ComboBox x:Name="loadDataList" VerticalAlignment="Top" Width="200" Grid.Row="1" Grid.Column="1" Margin="36,0,100,0" Grid.ColumnSpan="2">
+
+        </ComboBox>
     </Grid>
 </Window>
